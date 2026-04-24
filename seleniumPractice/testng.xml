@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestScenario 1">
+  	<parameter name="browsername" value="Edge"></parameter>
+  	<parameter name="testName" value="Test Scenario 3 In Edge"></parameter>
+  	<parameter name="OS" value="Windows 11"></parameter>  	  	
+    <classes>
+      <class name="seleniumPractice.InputFormSmt"/>     
+    </classes>
+  </test> <!-- TestScenarios --> 
+    <test thread-count="5" name="TestScenario 2">
+  	<parameter name="browsername" value="Chrome"></parameter>
+  	<parameter name="testName" value="Test Scenario 3 in Chrome"></parameter>
+  	<parameter name="OS" value="Windows 10"></parameter>  	  	
+    <classes>
+      <class name="seleniumPractice.InputFormSmt"/>     
+    </classes>
+  </test> <!-- TestScenarios -->
+</suite> <!-- Suite -->

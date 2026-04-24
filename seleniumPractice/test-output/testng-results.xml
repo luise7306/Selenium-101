@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T22:51:15Z" name="Suite" finished-at="2026-04-24T22:51:43Z" duration-ms="28091">
+    <groups>
+    </groups>
+    <test started-at="2026-04-24T22:51:15Z" name="TestScenario 1" finished-at="2026-04-24T22:51:43Z" duration-ms="28091">
+      <class name="seleniumPractice.InputFormSmt">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:seleniumPractice.InputFormSmt@304bb45b]" started-at="2026-04-24T22:51:15Z" name="setUp" finished-at="2026-04-24T22:51:32Z" duration-ms="17183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Scenario 3 In Edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="submitForm()[pri:0, instance:seleniumPractice.InputFormSmt@304bb45b]" started-at="2026-04-24T22:51:32Z" name="submitForm" finished-at="2026-04-24T22:51:43Z" duration-ms="10489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:seleniumPractice.InputFormSmt@304bb45b]" started-at="2026-04-24T22:51:43Z" name="tearDown" finished-at="2026-04-24T22:51:43Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- seleniumPractice.InputFormSmt -->
+    </test> <!-- TestScenario 1 -->
+  </suite> <!-- Suite -->
+</testng-results>

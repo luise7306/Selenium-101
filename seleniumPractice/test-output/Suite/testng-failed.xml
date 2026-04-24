@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestScenario 2(failed)">
+    <parameter name="OS" value="MacOS Sequoia"/>
+    <parameter name="browsername" value="Safari"/>
+    <parameter name="testName" value="Test Scenario 3 in Safari"/>
+    <classes>
+      <class name="seleniumPractice.InputFormSmt">
+        <methods>
+          <include name="tearDown"/>
+          <include name="submitForm"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- seleniumPractice.InputFormSmt -->
+    </classes>
+  </test> <!-- TestScenario 2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
